@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_payment_sponsors_payment_sponsors",
+  "info": {
+    "displayName": "paymentSponsors"
+  },
+  "options": {},
+  "attributes": {
+    "sponsors": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

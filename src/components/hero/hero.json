@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroDescription": {
+      "type": "text"
+    },
+    "feature": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    },
+    "heroSponsors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-sponsors.payment-sponsors"
+    },
+    "heroHeadingBefore": {
+      "type": "string"
+    },
+    "HeroHeadingAfter": {
+      "type": "string"
+    },
+    "HeroHeadingPayments": {
+      "type": "string"
+    },
+    "HeroHeadingPlatform": {
+      "type": "string"
+    }
+  }
+}

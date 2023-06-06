@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_payment_section_payment_sections",
+  "info": {
+    "displayName": "paymentSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paymentSponsors": {
+      "displayName": "paymentSponsors",
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-sponsors.payment-sponsors"
+    },
+    "paymentOptions": {
+      "displayName": "paymentOptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-options.payment-options"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "sponsorsHeding": {
+      "type": "string"
+    },
+    "sponsorsDescription": {
+      "type": "text"
+    },
+    "headingAfter": {
+      "type": "string"
+    }
+  }
+}

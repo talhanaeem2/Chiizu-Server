@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_head_heads",
+  "info": {
+    "displayName": "head"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    }
+  }
+}

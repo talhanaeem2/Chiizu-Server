@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_herotest_herotests",
+  "info": {
+    "displayName": "herotest"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "testFeature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.features"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_story_stories",
+  "info": {
+    "displayName": "stories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
